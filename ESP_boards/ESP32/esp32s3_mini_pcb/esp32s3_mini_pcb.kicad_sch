@@ -4407,7 +4407,7 @@
 		)
 		(uuid "98b2f028-47a6-4e96-8c62-8eac408cb35a")
 	)
-	(label "EN"
+	(label "ESP_32EN"
 		(at 193.04 60.96 0)
 		(effects
 			(font
@@ -4428,7 +4428,7 @@
 		)
 		(uuid "a4e00228-fa55-4f67-9be9-50dd929fcfd2")
 	)
-	(label "EN"
+	(label "ESP_32EN"
 		(at 158.75 40.64 0)
 		(effects
 			(font
