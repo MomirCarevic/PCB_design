@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NRH2412T100MNGH
+D Fixed Inductors 2412 10uH 600mOhms +/-20%Tol 450mA
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA11/2206147.pdf
+$ENDCMP
+#
+#End Doc Library
