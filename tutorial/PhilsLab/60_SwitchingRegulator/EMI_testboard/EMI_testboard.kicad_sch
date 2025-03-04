@@ -1745,7 +1745,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 72.0852 69.85 0)
 			(effects
 				(font
@@ -1855,76 +1855,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 165.1 69.85 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35f55355-684d-443e-b81d-056b47a0fc0b")
-		(property "Reference" "C3"
-			(at 168.91 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22u"
-			(at 168.91 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 164.1348 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 165.1 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b5e5f86a-80e5-4b14-b591-55ee0c29ff8e")
-		)
-		(pin "1"
-			(uuid "c389b7b9-2b96-40ee-acd9-d56d43363aaa")
-		)
-		(instances
-			(project "EMI_testboard"
-				(path "/9e2ce20d-ca21-4065-804a-4c500b8f9d96"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 88.9 73.66 0)
 		(unit 1)
@@ -2020,7 +1950,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_Neosid_SM-PIC0512H"
 			(at 147.32 63.5 0)
 			(effects
 				(font
@@ -2333,6 +2263,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 165.1 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd618bf1-eb10-4e9e-ada5-153312569ab2")
+		(property "Reference" "C3"
+			(at 168.91 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 168.91 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 166.0652 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 165.1 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "de6ea160-933b-4850-bfa0-62d9ea8362f0")
+		)
+		(pin "1"
+			(uuid "dee837e4-6fcc-4d06-9645-19d0c9626bab")
+		)
+		(instances
+			(project "EMI_testboard"
+				(path "/9e2ce20d-ca21-4065-804a-4c500b8f9d96"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 109.22 83.82 0)
 		(unit 1)
@@ -2467,6 +2467,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 175.26 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df001021-f88f-401a-a1b9-ba37ca88671f")
+		(property "Reference" "C4"
+			(at 179.07 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 179.07 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 176.2252 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 175.26 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6217ab7b-53a7-4226-98b5-63e401e6e8bf")
+		)
+		(pin "1"
+			(uuid "f50059ff-e4c5-4f29-a684-d38902093cd8")
+		)
+		(instances
+			(project "EMI_testboard"
+				(path "/9e2ce20d-ca21-4065-804a-4c500b8f9d96"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 193.04 63.5 0)
 		(unit 1)
@@ -2529,76 +2599,6 @@
 			(project "EMI_testboard"
 				(path "/9e2ce20d-ca21-4065-804a-4c500b8f9d96"
 					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 175.26 69.85 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "faf82f11-51e9-445b-b1f8-bf7d879a1c65")
-		(property "Reference" "C4"
-			(at 179.07 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22u"
-			(at 179.07 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 174.2948 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 175.26 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2864fc46-6b96-45cc-bfd0-ed3db09cf5b0")
-		)
-		(pin "1"
-			(uuid "bbf60451-db44-4c52-8803-41b72035758e")
-		)
-		(instances
-			(project "EMI_testboard"
-				(path "/9e2ce20d-ca21-4065-804a-4c500b8f9d96"
-					(reference "C4")
 					(unit 1)
 				)
 			)
