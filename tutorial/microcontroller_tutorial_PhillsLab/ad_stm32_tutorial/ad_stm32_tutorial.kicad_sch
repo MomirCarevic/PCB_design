@@ -6687,13 +6687,12 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_6.3x6.3_H3"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 52.07 150.368 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
@@ -8105,7 +8104,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:NRH2412T2R2MNGH"
+		(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_NR-24xx"
 			(at 185.42 127.94 0)
 			(effects
 				(font
