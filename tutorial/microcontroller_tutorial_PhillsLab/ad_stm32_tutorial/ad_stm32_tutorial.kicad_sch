@@ -4003,12 +4003,6 @@
 		(uuid "881be4b1-6c65-4f77-a5dd-f8e513800f47")
 	)
 	(junction
-		(at 93.98 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "89859547-ce0b-4fa5-a39e-8fd5481c751b")
-	)
-	(junction
 		(at 208.28 25.6198)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5006,7 +5000,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 171.45) (xy 93.98 179.07)
+			(xy 93.98 166.37) (xy 93.98 179.07)
 		)
 		(stroke
 			(width 0)
@@ -5593,16 +5587,6 @@
 			(type default)
 		)
 		(uuid "d6875b56-a49c-4e45-ab15-1aa0fa456ba0")
-	)
-	(wire
-		(pts
-			(xy 93.98 166.37) (xy 93.98 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d788f27b-0f1f-4ee6-8782-606aa881b451")
 	)
 	(wire
 		(pts
@@ -6270,28 +6254,6 @@
 			)
 		)
 	)
-	(global_label "IMU_NCS_GYR"
-		(shape output)
-		(at 95.25 95.25 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "13913289-d8f1-4809-b11a-499fa07b61d0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.25 79.5043 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "IMU_MOSI"
 		(shape input)
 		(at 186.69 106.68 180)
@@ -6398,6 +6360,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IMU_NCS_ACC"
+		(shape output)
+		(at 95.25 95.25 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47c39938-4ce2-4cbf-8feb-d28a3917e3d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.25 79.5043 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6623,28 +6607,6 @@
 		)
 	)
 	(global_label "IMU_NCS_ACC"
-		(shape output)
-		(at 92.71 95.25 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e2281cf3-5495-462e-969d-7a29081127de")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.71 79.5043 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IMU_NCS_ACC"
 		(shape input)
 		(at 186.69 114.3 180)
 		(fields_autoplaced yes)
@@ -6662,6 +6624,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IMU_NCS_GYR"
+		(shape output)
+		(at 92.71 95.25 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f00abdd5-b1da-421a-ad97-f2af8953e6bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.71 79.5043 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
